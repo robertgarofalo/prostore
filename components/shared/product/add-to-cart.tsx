@@ -11,7 +11,6 @@ const AddToCart = ({ item }: { item: CartItem }) => {
 
     const router = useRouter()
 
-
     const handleAddToCart = async () => {
         const res = await addItemToCart(item)
 
