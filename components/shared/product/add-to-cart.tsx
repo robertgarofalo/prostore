@@ -7,7 +7,7 @@ import { Plus } from "lucide-react";
 import { toast } from "sonner";
 import { addItemToCart } from "@/lib/actions/cart.actions";
 
-const AddToCart = ({ item }: { item: Cart }) => {
+const AddToCart = ({ item }: { item: CartItem }) => {
 
     const router = useRouter()
 
